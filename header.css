@@ -1,0 +1,182 @@
+
+
+.main{
+    /* width: 100%; */
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(main\ file.jpeg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* height: 100vh; */
+
+    padding: 0%;
+    margin:0 ;
+}
+
+.navbar{
+    /* width: 100vw;
+    height: 100px; */
+    background-color: #040a1d;
+   
+}
+
+.icon{
+    width: 200px;
+  float: left;
+  height: 70px;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 223px;
+    height: 50px;
+}
+
+.menu{
+   
+    width: 80vw;
+    float: left;
+    height: 76px;
+    margin-left: 350px;
+    margin-top: -50px;
+}
+
+.menulist{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: 79px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    margin: 22px;
+}
+
+ul li a:hover{
+    color: #9290c3;
+}
+.logo:hover{
+    color: #9290c3;
+}
+.menu-btn{
+    display: none;
+}
+
+
+
+/*responsive*/
+@media(max-width: 1470px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 400px){
+    .footer-col{
+      width: 100%;
+  }
+}
+
+.navbar .menu-btn i{
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+    .menulist{
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    background-color: #08091b;
+    height: 70vh;
+    width: 30vh;
+    display: block;
+    text-align: center;
+    opacity: 0;
+   } 
+
+   .menu{
+    
+    justify-content: end;
+    align-content: end;
+    align-items: end;
+    justify-items: end;
+    
+   }
+
+   
+
+   
+   .menulist li{
+    margin: 8px 0;
+
+   }
+   
+   .menulist li a{
+    font-size: 20px;
+    display: block;
+   }
+
+   .menulist li a:hover,
+    .menulist li a.active{
+    color: cyan;
+
+   }
+
+   .menu-btn{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    align-items: end;
+    justify-items: end;
+    padding-top:46px;
+    padding-right: 20px;
+   }
+
+   .menulist{
+    position:absolute;
+    top: 95px;
+    left: auto;
+    right: auto;
+    transition: 0.2s;
+   }
+   .menu{
+    overflow: hidden;
+   }
+  
+
+}
+
+
+/* function are user on this */
+.show-menu .menulist{
+    opacity: 1;
+}
+.show-menu .nav__toggle{
+    opacity: 0;
+}
+
+
+
+ 

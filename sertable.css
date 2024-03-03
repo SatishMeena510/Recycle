@@ -1,0 +1,117 @@
+.serv-table {
+    display: flex; /* Set display to flex */
+    margin-left: 34px;
+    margin-right: 20px;
+}
+
+table {
+    margin-right: 20px; /* Add margin between the tables */
+    width: 100%;
+    border: 0cap solid #ded9d9;
+          border-spacing: 0cm; text-align: left;
+          padding: 9px 20px;
+}
+.SERVICES{
+    padding: auto;
+   
+}
+.para6{
+    font-size: larger;
+}
+.thirdheading{
+    padding: 0px;
+    margin: 1px 42px;
+    margin-top: -10px;
+    position: relative;
+    text-align: center;
+    top: 20%;
+    font-size: 3vw;
+    left: 3%;
+    margin-bottom: -37px;
+}
+
+
+.serv01{
+    background-image: url('toxic-ewaste-world-photography.jpg'); 
+    
+    color: aliceblue;
+   /* opacity: 0.6; */
+    background-size: contain;
+    background-clip: padding-box; 
+    /* background-image: ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px; 
+    margin-right: 20px;
+    margin-top: 51px;
+    margin-left: 55px;
+    /* margin-right: 20px; */
+   border-radius: 10px;
+    width: 93%;
+    height: 500px;
+    
+}
+.table1{
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.table2{background-color: white;
+
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.table3{
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.shead{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+
+}
+.shead:hover{
+    color: #070f2b;
+}
+    
+
+
+.table {
+    border-collapse: separate;
+    width: 100%;
+}
+
+th, td {
+    border: 0cap solid #cd5555;
+    border-spacing: 2cm; text-align: left;
+    padding: 9px 20px; /* Adjust the padding to increase the gap */
+    font-family: "Roboto", sans-serif;
+}
+
+th {
+    /* background-color: #86ce9771; */
+    /* background-color: rgba(213, 184, 211, 0.83); */
+    background: #9290c3;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    
+}
+/*responsive*/
+@media(max-width: 1470px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 400px){
+    .footer-col{
+      width: 100%;
+  }
+  }
